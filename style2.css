@@ -1,0 +1,56 @@
+/*element followed property sheet
+
+elemnt{
+    property: change will be made ;
+*/
+
+
+body{
+    background-color: lightblue;
+    color: azure;
+    border: solid 1px darkcyan;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header{
+    background-color: lightcyan;
+    color: black;
+    width: 50%;
+    border: lightblue 1px;
+}
+main{
+    width: 50%;
+    border: 1px solid darkgray;
+    margin: auto;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+
+#firstparagraph{
+    background-color: bisque;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+#aboutsza{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+}
+
+figcaption{
+    background-color: bisque;
+    color: black;
+    font-size: larger;
+    width: 50%;
+}
