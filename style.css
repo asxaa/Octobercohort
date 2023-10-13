@@ -12,8 +12,8 @@ body{
 }
 
 a{
-color: black;
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 header {
@@ -49,4 +49,7 @@ ids are identified as #idname in css*/
     font-size: 24px;
     padding: 10px;
     text-align: center;
+}
+footer{
+    color: black;
 }
