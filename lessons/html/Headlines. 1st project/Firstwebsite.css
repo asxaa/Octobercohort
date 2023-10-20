@@ -1,0 +1,94 @@
+body{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    font-family: 'playfair display', serif;
+}
+
+header h1{
+    width: 50%;
+    font-family: serif;
+    color: black;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    padding:10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+span{
+    font-style: italic;
+    color: black;
+    
+}
+.opening{
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: black ;
+    margin: 10px;
+}
+
+.FirstPara{
+    padding: 10px 15px;
+    
+}
+
+.clocktwo{
+    font-size: medium;
+}
+
+img{
+    width:50%;
+    margin: auto;
+
+}
+
+.container{
+    padding: 10px 15px;
+    text-align: justify;
+    
+}
+
+.containertwo{
+    padding: 10px 15px;
+    text-align: justify;
+    
+}
+
+.Activitestwo{
+    font-size: 15px;
+    font-family: 'Arial','serif';
+}
+
+.Story{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.Storytitle{
+    justify-content: left;
+    font-style: italic;
+}
+
+.Storypara{
+    font-family: 'Cormorant Garamond', serif ;
+}
