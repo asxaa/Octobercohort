@@ -27,6 +27,7 @@ header nav ul li a{
     text-decoration: none;
     color: black;
 }
+
 header nav ul li a:hover{
     border-bottom: 1px solid black;
 }
@@ -79,3 +80,51 @@ img{
     background-color: snow;
 }
 
+.Openingtwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    background-color: snow;
+    font-style: italic;
+    
+}
+
+.Openingtwo h3{
+    font-style: normal;
+}
+
+.onebedroom{
+    background-color: snow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+.onebedroom div p{
+    font-style: italic;
+}
+
+.doublebedroom{
+    background-color: snow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.doublebedroom p{
+    font-style: italic;
+}
+
+.Presidential{
+    background-color: snow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+.Presidential p{
+    font-style: italic;
+}
