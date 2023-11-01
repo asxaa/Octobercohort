@@ -65,7 +65,8 @@ span{
 }
 
 img{
-    max-width: 30%; 
+    max-width: 30%;
+    height: 70%;
 
 }
 
@@ -175,54 +176,5 @@ footer{
         flex: column;
         align-items: center;
     }
-
-    .img{
-        height: 50%;
-    }
-
-    .opening{
-        width: 100%;
-    }
-
-    .container{
-        width: 100%;
-    }
-
-    .containertwo{
-        width: 100%;
-    }
-
-    .doublebedroom{
-        width: 100%;
-    }
-
-    .FirstPara{
-        width: 100%;
-    }
-
-    .onebedroom{
-        width: 100%;
-    }
-
-    .opening{
-        width: 100%;
-    }
-
-    .Openingtwo{
-        width: 100%;
-    }
-
-    .Presidential{
-        width: 100%;
-    }
-
-    .story{
-        width: 100%;
-    }
-
-    .storyw{
-        width: 100%;
-    }
-
 }
 
