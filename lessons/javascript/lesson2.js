@@ -80,7 +80,7 @@ console.log( "-----------------")
 
 //Example 2 using an else if statment 
 
-if (firstName === "Asia" || firstName === "asia" ){
+if (firstName === "Asia" || firstName === " asia" ){
     console.log( "Oh i know you, Welcome back" + firstName)
 }else if (firstName){
     console.log( "Welcome back " + firstName)
