@@ -1,7 +1,8 @@
-// string concatenation 
-// string interpolation 
-// = vs == vs === / 1 == "1" || 1 === "1"
-// && vs || 
+//Saturday 21/10/2023 
+// string concatenation ß
+// string interpolation ß
+// = vs == vs === / 1 == "1" || 1 === "1" ß
+// && vs || ß
 
 let myName = "Asia"
 
@@ -86,4 +87,56 @@ if (firstName === "Asia" || firstName === " asia" ){
     console.log( "Welcome back " + firstName)
 } else {
     console.log( "Sorry i do not recognise you")
+}
+
+// Lesson 2 homework
+
+// 1)
+let myPet = "daisy"
+const type = "dog"
+console.log( myPet + " is a " + type)
+
+// 2)
+var age2 = 20
+var dob2 = "30/10/2033"
+console.log( "I am " + age2 + " years old, I was born on " + dob2)
+
+// 3) 
+var food = "lasagne"
+var date = "21/10/2023"
+var cusine = "Italian"
+console.log("Hello. the date today is " + date + " ;I am making an " + cusine + " dish called " + food )
+
+// 4) 
+myPet = "archie"
+console.log( "My pets name is " + myPet)
+
+// 5) 
+console.log( typeof dob2)
+console.log(typeof age2)
+console.log( "------------------")
+
+// 6) 
+var marvelSuperhero = "Spiderman"
+var marvelSuperhero2 = "Superman"
+
+if ( marvelSuperhero === "Spiderman"){
+    console.log( "Welcome back Spiderman" )
+} else if ( marvelSuperhero2 == "Superman"){
+    console.log( "Sorry that Superhero does not belong to marvel ")
+} else{
+    console.log( "Sorry i do not recognise that Superhero")
+}
+console.log("--------------")
+
+// 6) teacher answer
+
+var hero = "Spiderman"
+
+if( hero === "Spiderman"){
+    console.log( "Marvel hero")
+} else if( hero === "Batman"){
+    console.log( "DC hero")
+} else{
+    console.log( "Sorry, I do not recognise that personn")
 }
