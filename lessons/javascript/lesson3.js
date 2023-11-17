@@ -8,7 +8,7 @@
 // Greater than > / Greater than or equal >=
 // Less than < / Less than or equal <=
 
-// Example of conditional statments using greatert than
+// Example of conditional statments using greater than
 
 let age = 34
 
