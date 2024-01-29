@@ -8,7 +8,9 @@
     .shift()
     .includes("itemaname")
     .indexOf("itemname")
-    .join()
+    .join"("")
+    .split("")
+    .reverse
 */
 /* Properties
     .length  

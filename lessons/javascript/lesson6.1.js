@@ -2,7 +2,7 @@
 // Loops part 1
 // For loops ß
 // Intialisation vs Boundry vs iterator ß
-// First buzz x
+// Fizz buzz x
 
 // i++
 // i--
@@ -67,14 +67,26 @@ for(let i=1;i<=10; i++){
 }
 console.log("----------")
 
-//2)
+// 2)
 
 for(let i=0; i<=10;i+=2){
     console.log(i)
 }
 console.log("-------------")
 
-//3)
+// 2) + 3) teachers answer 
+
+var array = [0,1,2,3,4,5,6,7,8,9,10]
+
+for(let i=0; i<array.length; i++){
+    if(array[i]%2 === 0){
+        console.log(`even number ${array[i]}`)
+    }else{
+        console.log(`odd number ${array[i]}`)
+    }
+}
+console.log("-------------")
+// 3)
 
 for( let i=1; i<=10; i+=2){
     console.log(i)
@@ -86,3 +98,21 @@ console.log("------------")
 for(let i=0; i<=100; i+=2){
     console.log(i)
 }
+
+// Challange 1) teachers answer 
+
+// A Palindrome is a string/ word that is spelt the same way backwards.
+
+function checkPalindrome(string){
+    console.log(string)
+    var reversedWord = string.split("").reverse().join("")
+
+    if(reversedWord === string){
+        console.log(`${string} is = ${reversedWord} therefore it is a palindrome.`)
+    }else{
+        console.log(`${string} is != ${reversedWord} therefore it is not a palindrome.`)
+    }
+
+}
+
+checkPalindrome("madam")
