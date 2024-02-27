@@ -4,7 +4,7 @@ import Hwknav from './Hwknav'
 
 function Exercise1(props) {
   return (
-   <div className='carrdHolder'>
+   <div className='cardHolder'>
      <div className='card'>
             <img src= {props.img} alt='Harry Potter'/>
             <h3>{props.title}</h3>

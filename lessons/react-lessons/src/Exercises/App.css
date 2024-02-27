@@ -5,29 +5,26 @@ body{
     /* vertical version of justify content is align-items */
 }
 
-#roots{
-    display: flex;
+img{
+    width: 100%;
 }
 
 .cardHolder{
+    border: 1px solid black ;
+
+}
+
+.cardComponent{
     border: 1px solid black;
-   display: flex;
+    display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-img{
-    width: 100%;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+.cardTwo{
+    display: flex;
 }
-.Card{
-    width: 20%;
-    background-color: bisque;
-    border-radius: 10px;
-    border: 1px solid black;
-    text-align: center;
-}
+
 
 nav ul{
     margin: 0%;

@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
 import Nav from './Nav'
+// not related to the homework
 
 function Card(props) {
     
   return (
-    <div className='cardHolder'>
-        <div className='Card'>
+    <div className='cardComponent'>
+        <div className='CardTwo'>
         <img src={props.img} alt='Astronaut' />
         <h3>{props.name}</h3>
         <h4>{props.job}</h4>
@@ -31,3 +32,16 @@ export default Card
 //  console.log(link3)
 // }
 //Nav{link1,link2,link3}
+
+// Ternary Conditionals: a one line conditional statment 
+// if true ? do this: do that 
+/* Example:
+{ props.animal ? <h1> {props.animal} </h1> : <h1> Undefined </h1> }
+
+// a regular conditional statment has multiple lines
+
+/* if{condition is true}(
+  do this
+)else{
+  do that 
+}*/

@@ -2,9 +2,6 @@ body{
     margin: 0%;
     background-color: azure;
     border: 1px solid black ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #roots{

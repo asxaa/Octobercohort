@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+
+}
+
+.cardHolder{
+    width: 75%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.component{
+    width: 20%;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
